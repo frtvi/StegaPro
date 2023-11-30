@@ -1,0 +1,2 @@
+# StegaPro
+Esteganografia automatizada
