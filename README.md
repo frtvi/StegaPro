@@ -1,6 +1,5 @@
 # StegaPro
-Esteganografia automatizada
-Este é um programa simples em Python que permite esconder um arquivo em uma imagem utilizando a técnica de esteganografia.
+Esteganografia automatizada<br>Este é um programa simples em Python que permite esconder um arquivo em uma imagem utilizando a técnica de esteganografia.
 
 ## Requisitos
 
