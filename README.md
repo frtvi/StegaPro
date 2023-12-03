@@ -1,10 +1,20 @@
 # StegaPro
-Esteganografia automatizada<br>Este é um programa simples em Python que permite esconder um arquivo em uma imagem utilizando a técnica de esteganografia.
+
+Este é um programa simples em Python que permite esconder e extrair textos de imagens.
 
 ## Requisitos
 
-- Python 3.x
-- Biblioteca Pillow (`pip install Pillow`)
+Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as dependências usando:
+
+```bash
+pip install Pillow
+Como Usar
+Execute o script Python stega_pro.py.
+Insira o texto na caixa de texto.
+Pressione o botão "Esconder Texto na Imagem" para esconder o texto em uma imagem selecionada.
+Pressione o botão "Extrair Texto" para extrair o texto da imagem selecionada.
+O texto extraído será salvo automaticamente no arquivo extração.txt.
+
 # Nota Legal
 
 Este programa é fornecido apenas para fins educacionais e demonstrativos. O desenvolvedor não se responsabiliza pelo uso indevido deste software para atividades maliciosas ou ilegais. É estritamente proibido utilizar este programa para ocultar arquivos ou realizar qualquer outra atividade que viole a lei ou a ética.
