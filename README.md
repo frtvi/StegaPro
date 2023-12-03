@@ -7,7 +7,7 @@ Este é um programa simples em Python que permite esconder e extrair textos de i
 Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as dependências usando:
 
 ```bash
-pip install Pillow
+pip install pillow
 ```
 Como Usar
 Execute o script Python stega_pro.py.
