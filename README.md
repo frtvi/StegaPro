@@ -9,7 +9,7 @@ Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as 
 ```bash
 pip install pillow
 ```
-Como Usar
+# Como Usar
 Execute o script Python stega_pro.py.<br>
 Insira o texto na caixa de texto.<br>
 Pressione o botão "Esconder Texto na Imagem" para esconder o texto em uma imagem selecionada.<br>
