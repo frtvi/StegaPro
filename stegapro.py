@@ -5,11 +5,14 @@ from tkinter import filedialog
 # Função para esconder um arquivo em uma imagem
 def esconder_arquivo(imagem_path, arquivo_path, imagem_saida_path):
     with open(arquivo_path, "rb") as arquivo:
-        arquivo_binario = arquivo.read()
+        arquivo_binario = bytearray(arquivo.read())
 
     # Converter cada byte do arquivo para um caractere e adicionar à imagem
     imagem = Image.open(imagem_path)
     imagem_binario = bytearray(imagem.tobytes())
+
+    # Certificar-se de que a bytearray da imagem seja grande o suficiente
+    imagem_binario.extend([0] * (len(arquivo_binario) - len(imagem_binario)))
 
     for i in range(len(arquivo_binario)):
         imagem_binario[i] = (imagem_binario[i] & 254) | ((arquivo_binario[i] >> 7) & 1)
