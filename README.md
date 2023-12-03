@@ -8,13 +8,13 @@ Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as 
 
 ```bash
 pip install Pillow
+```
 Como Usar
 Execute o script Python stega_pro.py.
 Insira o texto na caixa de texto.
 Pressione o botão "Esconder Texto na Imagem" para esconder o texto em uma imagem selecionada.
 Pressione o botão "Extrair Texto" para extrair o texto da imagem selecionada.
 O texto extraído será salvo automaticamente no arquivo extração.txt.
-```
 
 # Nota Legal
 
