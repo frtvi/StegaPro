@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import filedialog
 import base64
 
-#Code by V. Barbosa
+# Code by V. Barbosa
 
 # Função para esconder um texto em uma imagem usando base64
 def esconder_texto(imagem_path, texto, imagem_saida_path):
