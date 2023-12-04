@@ -1,6 +1,6 @@
 # StegaPro
 
-Este é um programa simples em Python que permite esconder e extrair textos de imagens.
+Este é um programa simples em Python que permite esconder e extrair textos nos bytes de imagens.
 
 ## Requisitos
 
