@@ -10,7 +10,7 @@ Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as 
 pip install pillow
 ```
 # Como Usar
-Execute o script Python stegapro.py.<br>
+Execute o script ```python3 stegapro.py```.<br>
 Insira o texto na caixa de texto.<br>
 Pressione o botão "Esconder Texto na Imagem" para esconder o texto em uma imagem selecionada.<br>
 Pressione o botão "Extrair Texto" para extrair o texto da imagem selecionada.<br>
