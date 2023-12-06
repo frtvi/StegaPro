@@ -1,6 +1,7 @@
 # StegaPro
 
 Este é um programa simples em Python que permite esconder e extrair textos nos bytes de imagens.
+## Como funciona
 ### Esconder Texto na Imagem:
 
 1. O texto desejado para ocultação é convertido para uma sequência de bytes usando a codificação UTF-8 e, em seguida, é codificado em base64 para representação binária.
