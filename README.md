@@ -1,26 +1,22 @@
 # StegaPro
 
 Este é um programa simples em Python que permite esconder e extrair textos nos bytes de imagens.
+### Esconder Texto na Imagem:
 
-O texto que você deseja ocultar é convertido para uma sequência de bytes usando a codificação UTF-8 e, em seguida, é codificado em base64. Isso é feito para garantir que o texto possa ser representado como uma sequência de bytes, o que é essencial para a ocultação.
-A imagem de entrada é lida como uma sequência de bytes.
-Uma marca de início e uma marca de fim são adicionadas para identificar o início e o fim do texto codificado.
-Se a marcação de início e fim já existir na imagem, ela é removida.
-O texto codificado é então anexado à sequência de bytes da imagem.
-A imagem resultante, agora contendo o texto oculto, é salva em um novo arquivo.
-Extrair Texto da Imagem:
+1. O texto desejado para ocultação é convertido para uma sequência de bytes usando a codificação UTF-8 e, em seguida, é codificado em base64 para representação binária.
+2. A imagem de entrada é tratada como uma sequência de bytes.
+3. Marcas de início e fim são adicionadas para identificar o início e o fim do texto codificado.
+4. Se as marcas já existirem na imagem, são removidas.
+5. O texto codificado é anexado à sequência de bytes da imagem.
+6. A imagem resultante, agora contendo o texto oculto, é salva em um novo arquivo.
 
-A imagem é lida como uma sequência de bytes.
-As marcas de início e fim são localizadas na sequência de bytes.
-O texto codificado entre essas marcas é extraído.
-O texto é decodificado usando base64 para recuperar o texto original.
-O texto decodificado é salvo em um arquivo chamado "extração.txt".
-Interface Gráfica (GUI):
+### Extrair Texto da Imagem:
 
-Uma interface gráfica é criada usando a biblioteca Tkinter.
-Dois botões são fornecidos na GUI: um para esconder o texto na imagem e outro para extrair o texto de uma imagem.
-A função on_esconder_click é chamada quando o botão "Esconder Texto na Imagem" é pressionado, e a função on_extrair_click é chamada quando o botão "Extrair Texto" é pressionado.
-
+1. A imagem é lida como uma sequência de bytes.
+2. As marcas de início e fim são localizadas na sequência de bytes.
+3. O texto codificado entre essas marcas é extraído.
+4. O texto é decodificado usando base64 para recuperar o texto original.
+5. O texto decodificado é salvo em um arquivo chamado "extração.txt".
 ## Requisitos
 
 Certifique-se de ter o Python instalado em seu sistema. Além disso, instale as dependências usando:
